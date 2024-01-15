@@ -78,3 +78,34 @@
     height: 550px;
     right: 5%;
 }
+
+/* SECTION THREE */
+.choose-your-destination {
+    text-align: center;
+    margin-top: 10%;
+    border: 1px solid black;
+}
+
+.maldives-indonesia-picture {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 3% 6% 0 6%;
+    gap: 2%;
+}
+
+.maldives {
+    background-image: url(/Image/Maldives.png);
+}
+
+.indonesia {
+    background-image: url(/Image/Indonesia.png);
+}
+
+.destination-picture-destini {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    height: 300px;
+    width: 100%;
+}
