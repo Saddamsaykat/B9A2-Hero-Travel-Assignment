@@ -3,7 +3,7 @@
     height: 500px;
     width: 90%;
     margin: 2% 6%;
-    background-image: url('/Image/first-section-img.png');
+    background-image: url('/Image/Explore-travels.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -11,9 +11,6 @@
 }
 
 .first-section-text {
-    /* position: absolute;
-    top: 50%;
-    left: 40%; */
     padding: 5% 25%;
     text-align: center;
 }
@@ -31,7 +28,6 @@
 }
 
 .find-now-option {
-    /* border: 1px solid red; */
     border-radius: 8px;
     margin-left: 20%;
     width: 719px;
@@ -43,4 +39,38 @@
 .find-now-option button {
     background: #FF5400;
     color: aliceblue;
+}
+
+/* SECOND SECTION  */
+.second-section {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap: 5%;
+    margin: 7% 6% 0 6%;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+}
+
+.second-section h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+.second-section button {
+    background: #FF5400;
+    height: 52px;
+    width: 174px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: aliceblue;
+    margin-top: 36px;
+}
+
+.second-section-picture {
+    position: absolute;
+    width: 540px;
+    height: 550px;
+    right: 5%;
 }
