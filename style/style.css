@@ -108,4 +108,24 @@
     border-radius: 16px;
     height: 300px;
     width: 100%;
+    border: 1px solid black;
+}
+
+.srilanka-northAmarica-kashmir-Picture {
+    display: grid;
+    grid-template-columns: 29% 40% 29%;
+    margin: 3% 6% 0 6%;
+    gap: 2%;
+}
+
+.srilanka {
+    background-image: url(/Image/Srilanka.png);
+}
+
+.north-amarica {
+    background-image: url(/Image/North-Amarica.png);
+}
+
+.kashmir {
+    background-image: url(/Image/Kashmir.png);
 }
