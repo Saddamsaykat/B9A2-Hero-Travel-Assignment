@@ -41,6 +41,10 @@
     color: aliceblue;
 }
 
+.find-now-btn {
+    margin-left: 5px;
+}
+
 /* SECOND SECTION  */
 .second-section {
     display: grid;
