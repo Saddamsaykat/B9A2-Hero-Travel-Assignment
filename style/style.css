@@ -83,7 +83,6 @@
 .choose-your-destination {
     text-align: center;
     margin-top: 10%;
-    border: 1px solid black;
 }
 
 .maldives-indonesia-picture {
@@ -106,9 +105,10 @@
     background-size: cover;
     background-position: center;
     border-radius: 16px;
-    height: 300px;
+    height: 150px;
     width: 100%;
-    border: 1px solid black;
+    padding-top: 150px;
+    color: aliceblue;
 }
 
 .srilanka-northAmarica-kashmir-Picture {
@@ -128,4 +128,19 @@
 
 .kashmir {
     background-image: url(/Image/Kashmir.png);
+}
+
+.bangladesh-bandarbon {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 3% 6% 0 6%;
+    gap: 2%;
+}
+
+.bangladesh {
+    background-image: url(/Image/Bangladesh.png);
+}
+
+.bandarbon {
+    background-image: url(/Image/Bandarbon.png);
 }
