@@ -1,0 +1,46 @@
+.first-section {
+    position: relative;
+    height: 500px;
+    width: 90%;
+    margin: 2% 6%;
+    background-image: url('/Image/first-section-img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.first-section-text {
+    /* position: absolute;
+    top: 50%;
+    left: 40%; */
+    padding: 5% 25%;
+    text-align: center;
+}
+
+.find-now-option-size {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+}
+
+.find-now-option-input-size {
+    width: 174px;
+    height: 46px;
+    border-radius: 8px;
+}
+
+.find-now-option {
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    margin-left: 20%;
+    width: 719px;
+    height: 53px;
+    background: rgba(228, 239, 255, 0.3);
+    padding: 15px;
+}
+
+.find-now-option button {
+    background: #FF5400;
+    color: aliceblue;
+}
