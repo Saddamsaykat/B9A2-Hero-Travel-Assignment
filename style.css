@@ -59,7 +59,7 @@
     height: 500px;
     width: 90%;
     margin: 2% 6%;
-    background-image: url(./image/Explore-travels.png);
+    background-image: url(./Image/Explore-travels.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -156,11 +156,11 @@
 }
 
 .maldives {
-    background-image: url(./image/Maldives.png);
+    background-image: url(./Image/Maldives.png);
 }
 
 .indonesia {
-    background-image: url(./image/Indonesia.png);
+    background-image: url(./Image/Indonesia.png);
 }
 
 .destination-picture-destini {
@@ -182,11 +182,11 @@
 }
 
 .srilanka {
-    background-image: url(./image/Srilanka.png);
+    background-image: url(./Image/Srilanka.png);
 }
 
 .north-amarica {
-    background-image: url(./image/North-Amarica.png);
+    background-image: url(./Image/North-Amarica.png);
 }
 
 .kashmir {
