@@ -60,16 +60,23 @@
 
 
 /* First section */
-/* .media-quary {
-    display: none;
-} */
+.title-first-section {
+    font-size: 50px;
+
+}
+
+.collab {
+    color: white;
+
+}
 
 .first-section {
     position: relative;
     height: 500px;
     width: 90%;
     margin: 2% 6%;
-    background-image: url(./Image/Explore-travels.png);
+    background-image: url(./Image/Explore-travels.png), linear-gradient(rgba(19, 19, 24, 1), rgba(19, 19, 24, 0));
+    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -518,6 +525,7 @@ hr {
 
 @media screen and (max-width: 600px) {
 
+    /* nav */
     .nav-all-link-text {
         display: none;
     }
@@ -544,6 +552,11 @@ hr {
         right: 0px;
         padding-right: 20px;
         top: 4px;
+    }
+
+    /* First Section */
+    .title-first-section {
+        font-size: 30px;
     }
 
     .find-now-option {
