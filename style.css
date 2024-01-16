@@ -13,13 +13,17 @@
 }
 
 .nav-icon-with-website-name {
+    /* display: grid;
+    grid-template-columns: repeat(1fr, 1fr); */
     display: flex;
-
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
 }
 
 .nav-icon-with-website-name img {
     width: 40px;
-    height: 30px;
+    height: 35px;
 
 
 }
@@ -48,11 +52,17 @@
     text-decoration: none;
 }
 
+.menu-icon {
+    display: none;
+}
 
 
 
 
 /* First section */
+/* .media-quary {
+    display: none;
+} */
 
 .first-section {
     position: relative;
@@ -190,7 +200,7 @@
 }
 
 .kashmir {
-    background-image: url(./image/Kashmir.png);
+    background-image: url(./Image/Kashmir.png);
 }
 
 .bangladesh-bandarbon {
@@ -229,9 +239,16 @@
     width: 64px;
 }
 
+.hotels-card {
+    background-color: #FBB56333;
+}
+
+.service-card {
+    background-color: rgba(41, 206, 246, 0.2);
+}
+
 .card-destini {
     padding: 14px 7%;
-    background-color: #FBB56333;
     height: 270px;
     border-radius: 8px;
 }
@@ -244,6 +261,43 @@
     background: #E9444433;
     margin: 2% auto;
 }
+
+
+/* Section Five */
+.section-five {
+    margin: 0 6%;
+}
+
+.section-five-destini {
+    /* display: grid;
+    grid-template-columns: 100%;
+    background-repeat: no-repeat; */
+    height: 500px;
+    width: 1170px;
+    margin: 3% auto;
+    align-items: center;
+}
+
+.section-five-first-div {
+    background-image: url(./Image/seven-section-first-div-img.png);
+}
+
+.section-five-second-div {
+    background-image: url(./Image/five-section-second-img.png);
+    height: 500px;
+    width: 1170px;
+    margin: 3% auto;
+
+
+}
+
+.section-five-third-div {
+    background-image: url(./Image/seven-section-first-div-img.png);
+}
+
+
+
+
 
 /* section 6 */
 
@@ -278,7 +332,7 @@
 
 .video-img {
     position: relative;
-    /* top: 3353px; */
+
     top: -429px;
     z-index: -1;
 }
@@ -384,7 +438,7 @@ hr {
 .footer {
 
     background-color: rgba(19, 19, 24, 0.05);
-    padding: 200px;
+    padding: 0px 10%;
 }
 
 .discount-body {
@@ -436,4 +490,129 @@ hr {
 
 .footer-copyright-sections {
     text-align: center;
+}
+
+/* mobile responsive start */
+
+@media screen and (max-width: 600px) {
+    /* .nav-icon-with-website-name {
+        display: none;
+    } */
+
+    .nav-all-link-text {
+        display: none;
+    }
+
+    .nav-icon-with-website-name {
+        position: absolute;
+        left: 15%;
+        margin-bottom: 35px;
+        margin-top: 30px;
+    }
+
+    .nav-icon-with-website-name img {
+        height: 15px;
+        width: 15px;
+    }
+
+    .nav-icon-name {
+        font-size: 15px;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        right: 0px;
+        padding-right: 20px;
+        top: 4px;
+    }
+
+    .find-now-option {
+        width: 170px;
+        height: 140px;
+        margin-left: 32%;
+    }
+
+    .find-now-option-size {
+        height: 30px;
+        width: 175px;
+        margin-bottom: 5px;
+    }
+
+    .find-now-option-input-size {
+        height: 30px;
+        margin-bottom: 5px;
+    }
+
+    .second-section {
+        display: block;
+    }
+
+    .second-section-picture {
+        margin-top: 30px;
+    }
+
+    .choose-your-destination {
+        display: block;
+        margin-top: 108%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .div-size-500 {
+        width: 500px;
+    }
+
+    .d-block {
+        display: block;
+    }
+
+    .TB-margin {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .price-tag {
+        margin: 0 10px;
+        padding: 0 15px;
+        width: 490px;
+    }
+
+    .deal-discount-div {
+        margin: 0 10px;
+        padding: 0 15px;
+        width: 490px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 8px;
+    }
+
+    .video-picture-size {
+        margin: 0 10px;
+        padding: 0 0px;
+        width: 490px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 8px;
+    }
+
+    .discount-seventy-parsent-img {
+        margin: 5% 3%;
+        width: 500px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 8px;
+    }
+
+    .footer {
+        margin: 80% 0 0 0;
+    }
+
+    /* .media-quary {
+        display: block;
+        width: 170px;
+        position: relative;
+        left: 35%;
+        gap: 10px; 
+    }*/
 }
