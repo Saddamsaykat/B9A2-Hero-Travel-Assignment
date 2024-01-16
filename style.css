@@ -259,8 +259,12 @@
 .section-6-video-with-information-div-one {
     position: relative;
     line-height: 28px;
+    height: 432px;
 }
 
+.section-6-video-with-information-div-two {
+    height: 432px;
+}
 
 .video-img-destini {
     height: 424px;
@@ -325,7 +329,48 @@
 }
 
 .section-seven--with-discount {
-    display: flex;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 432px;
+    margin: 5% 6%;
+    gap: 5%;
+}
+
+.form-section {
+    height: 91%;
+    width: 95%;
+    padding: 15px 30px;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+.from-section-text {
+    padding-bottom: 15px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.input-feild {
+    height: 52px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.input-feild-btn {
+    height: 58px;
+    margin-top: 20px;
+    width: 102%;
+    background-color: #FF5400;
+    color: wheat;
+    border-radius: 8px;
+}
+
+.newsletter-pictur {
+    height: 100%;
+    width: 100%;
 }
 
 .display-block {
