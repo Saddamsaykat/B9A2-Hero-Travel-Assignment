@@ -155,6 +155,10 @@
 }
 
 /* SECTION THREE */
+.destination-text h1 {
+    font-size: 40px;
+}
+
 .choose-your-destination {
     text-align: center;
     margin-top: 10%;
@@ -271,6 +275,17 @@
 
 
 /* Section Five */
+.section-five-text {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.section-five-text h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
 .section-five {
     margin: 0 6%;
 }
@@ -300,6 +315,54 @@
     background-image: url(./Image/seven-section-first-div-img.png);
 }
 
+.section-five-inner-text-asset {
+    display: inline-flex;
+    justify-content: end;
+}
+
+.section-five-inner-text-asset-lock {
+    display: inline-flex;
+
+}
+
+.inner-text-section-five-lock {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 15px;
+    width: 35%;
+    height: 53%;
+    border-radius: 8px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.section-five-inner-text-asset a {
+    text-decoration: none;
+    background-color: rgba(255, 84, 0, 1);
+    border-radius: 8px;
+    color: whitesmoke;
+    padding: 2%;
+    font-weight: 600;
+}
+
+.inner-text-section-five-lock a {
+    text-decoration: none;
+    background-color: rgba(255, 84, 0, 1);
+    border-radius: 8px;
+    color: whitesmoke;
+    padding: 2%;
+    font-weight: 600;
+}
+
+.inner-text-section-five {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 15px;
+    width: 350px;
+    border-radius: 8px;
+    margin-right: 10%;
+
+}
 
 
 
@@ -419,6 +482,8 @@ hr {
 }
 
 .input-feild-btn {
+    font-size: 24px;
+    font-weight: 600;
     height: 58px;
     margin-top: 20px;
     width: 102%;
@@ -576,6 +641,8 @@ hr {
         margin-bottom: 5px;
     }
 
+    /* SECOND SECTION  */
+
     .second-section {
         display: block;
     }
@@ -626,6 +693,32 @@ hr {
         background-size: cover;
         background-position: center;
         border-radius: 8px;
+    }
+
+    /* SECTION THREE  */
+    .destination-text h1 {
+        font-size: 27px;
+        font-weight: 800;
+    }
+
+    /* SECTION FOUR */
+    .section-four-text H1 {
+        font-weight: 700;
+    }
+
+    /* SECTION FIVE */
+    .section-five-text h1 {
+        font-size: 27px;
+    }
+
+    .inner-text-section-five-lock {
+        width: 350px;
+        height: 300px;
+    }
+
+    .section-five-second-div {
+        margin-top: 4%;
+        margin-bottom: 4%;
     }
 
     .discount-seventy-parsent-img {
