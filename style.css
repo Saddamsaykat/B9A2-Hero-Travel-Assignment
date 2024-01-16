@@ -59,7 +59,7 @@
     height: 500px;
     width: 90%;
     margin: 2% 6%;
-    background-image: url('/Image/Explore-travels.png');
+    background-image: url('./Image/Explore-travels.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -156,11 +156,11 @@
 }
 
 .maldives {
-    background-image: url(/Image/Maldives.png);
+    background-image: url("./Image/Maldives.png");
 }
 
 .indonesia {
-    background-image: url(/Image/Indonesia.png);
+    background-image: url("./Image/Indonesia.png");
 }
 
 .destination-picture-destini {
@@ -182,15 +182,15 @@
 }
 
 .srilanka {
-    background-image: url(/Image/Srilanka.png);
+    background-image: url("./Image/Srilanka.png");
 }
 
 .north-amarica {
-    background-image: url(/Image/North-Amarica.png);
+    background-image: url("./Image/North-Amarica.png");
 }
 
 .kashmir {
-    background-image: url(/Image/Kashmir.png);
+    background-image: url("./Image/Kashmir.png");
 }
 
 .bangladesh-bandarbon {
@@ -201,11 +201,11 @@
 }
 
 .bangladesh {
-    background-image: url(/Image/Bangladesh.png);
+    background-image: url("./Image/Bangladesh.png");
 }
 
 .bandarbon {
-    background-image: url(/Image/Bandarbon.png);
+    background-image: url("./Image/Bandarbon.png");
 }
 
 /* section four */
@@ -306,7 +306,7 @@
 
 /* section 7-8 */
 .newsletter-picture {
-    background-image: url(/Image/section-7.png);
+    background-image: url("./Image/section-7.png");
     width: 672px;
     height: 422px;
 
