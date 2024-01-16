@@ -85,6 +85,11 @@
     margin-top: 10%;
 }
 
+.section-title-destini {
+    width: 700px;
+    margin: 0 auto;
+}
+
 .maldives-indonesia-picture {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -143,4 +148,41 @@
 
 .bandarbon {
     background-image: url(/Image/Bandarbon.png);
+}
+
+/* section four */
+.section-four {
+    margin: 7% 5%;
+}
+
+.section-four-text {
+    text-align: center;
+}
+
+.hotel-service-card {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2%;
+    line-height: 25px;
+}
+
+.cards img {
+    height: 65px;
+    width: 64px;
+}
+
+.card-destini {
+    padding: 14px 7%;
+    background-color: #FBB56333;
+    height: 270px;
+    border-radius: 8px;
+}
+
+.price-tag {
+    height: 270px;
+    width: 500px;
+    padding: 14px 73px;
+    border-radius: 8px;
+    background: #E9444433;
+    margin: 2% auto;
 }
