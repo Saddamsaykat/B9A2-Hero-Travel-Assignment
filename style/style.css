@@ -1,7 +1,9 @@
-:root {
-    --primary-color: #FF5400;
-}
+* {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
 
+
+}
 
 
 .first-section {
@@ -196,22 +198,95 @@
     margin: 2% auto;
 }
 
+/* section 6 */
+
+.section-6-video-with-information {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    margin: 0 6%;
+    padding: 1% 3%;
+    gap: 3%;
+
+}
+
+.section-6-video-with-information-div-one {
+    /* width: 518px;
+    height: 52px;
+    top: 5612px;
+    left: 135px; */
+}
+
+.video-img-destini {
+    height: 424px;
+    width: 610px;
+    border-radius: 16px;
+}
+
+.video-img-video {
+    opacity: 0.4;
+}
+
+.video-img {
+    position: absolute;
+    top: 3353px;
+    z-index: -1;
+}
+
+.video-text {
+    position: absolute;
+    top: 3530px;
+    padding-left: 99px;
+    color: whitesmoke;
+    opacity: 0.9;
+}
+
+.btn-section-six {
+    background-color: rgba(255, 84, 0, 1);
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 2%;
+}
+
+
+
 
 
 /* Footer */
+
+.footer {
+
+    background-color: rgba(19, 19, 24, 0.05);
+    padding: 200px;
+}
+
+
+
 .primary-color {
     color: #FF5400;
 }
 
-.footer-div {
+.footer-div-name-company {
     display: flex;
     justify-content: center;
-    margin: 1%;
+    align-items: center;
+    margin: 5%;
 
 }
 
-.footer-div h1 {
+.footer-div-name-company img {
+    width: 50px;
+    height: 46px;
+}
+
+.footer-div-name-company h1 {
     margin-left: 1rem;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 .footer-div-two {
