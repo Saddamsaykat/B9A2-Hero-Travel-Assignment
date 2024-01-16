@@ -5,6 +5,54 @@
 
 }
 
+/* Nav section */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-icon-with-website-name {
+    display: flex;
+
+}
+
+.nav-icon-with-website-name img {
+    width: 40px;
+    height: 30px;
+
+
+}
+
+.nav-icon-name {
+    font-weight: 800;
+    font-size: 36px;
+
+}
+
+.nav-icon-name-span {
+    color: #FF5400;
+}
+
+.nav-all-link-text>ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.nav-all-link-text li {
+    margin-left: 7%;
+}
+
+.nav-all-link-text a {
+    text-decoration: none;
+}
+
+
+
+
+
+/* First section */
 
 .first-section {
     position: relative;
@@ -32,7 +80,6 @@
 
 .find-now-option-input-size {
     width: 160px;
-
     height: 46px;
     border-radius: 8px;
     padding-left: 14px;
@@ -210,11 +257,10 @@
 }
 
 .section-6-video-with-information-div-one {
-    /* width: 518px;
-    height: 52px;
-    top: 5612px;
-    left: 135px; */
+    position: relative;
+    line-height: 28px;
 }
+
 
 .video-img-destini {
     height: 424px;
@@ -227,15 +273,16 @@
 }
 
 .video-img {
-    position: absolute;
-    top: 3353px;
+    position: relative;
+    /* top: 3353px; */
+    top: -429px;
     z-index: -1;
 }
 
 .video-text {
-    position: absolute;
-    top: 3530px;
-    padding-left: 99px;
+    position: relative;
+    top: -680px;
+    padding-left: 79px;
     color: whitesmoke;
     opacity: 0.9;
 }
@@ -249,10 +296,41 @@
     color: white;
     font-size: 20px;
     font-weight: 800;
-    margin-top: 2%;
+    margin-top: 17%;
 }
 
 
+/* section 7-8 */
+.newsletter-picture {
+    background-image: url(/Image/section-7.png);
+    width: 672px;
+    height: 422px;
+
+
+}
+
+.newsletter-picture-discount-text {
+    background-color: #FF5400;
+    text-align: center;
+    width: 46%;
+    height: 26%;
+    border-radius: 14px;
+    color: white;
+    padding-top: 2px;
+    position: relative;
+    top: 57%;
+    left: 52%;
+    transform: rotate(-27deg);
+
+}
+
+.section-seven--with-discount {
+    display: flex;
+}
+
+.display-block {
+    display: block;
+}
 
 
 
@@ -264,6 +342,15 @@
     padding: 200px;
 }
 
+.discount-body {
+    background-color: #FF5400;
+    color: white;
+    text-align: center;
+    height: 110px;
+    width: 250px;
+    border-radius: 18px;
+    padding-top: 1px;
+}
 
 
 .primary-color {
