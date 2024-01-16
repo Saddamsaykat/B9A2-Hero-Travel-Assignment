@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #FF5400;
+}
+
+
+
 .first-section {
     position: relative;
     height: 500px;
@@ -16,15 +22,18 @@
 }
 
 .find-now-option-size {
-    width: 174px;
+    width: 160px;
     height: 52px;
     border-radius: 8px;
+    margin-left: 2%;
 }
 
 .find-now-option-input-size {
-    width: 174px;
+    width: 160px;
+
     height: 46px;
     border-radius: 8px;
+    padding-left: 14px;
 }
 
 .find-now-option {
@@ -185,4 +194,39 @@
     border-radius: 8px;
     background: #E9444433;
     margin: 2% auto;
+}
+
+
+
+/* Footer */
+.primary-color {
+    color: #FF5400;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+
+}
+
+.footer-div h1 {
+    margin-left: 1rem;
+}
+
+.footer-div-two {
+
+    text-align: center;
+}
+
+.icon-footer {
+    text-align: center;
+}
+
+.icon-footer i {
+    margin: 1rem;
+}
+
+.footer-copyright-sections {
+    text-align: center;
 }
